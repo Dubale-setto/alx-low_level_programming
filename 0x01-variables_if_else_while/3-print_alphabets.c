@@ -10,14 +10,16 @@
 
 int main(void)
 {
-	char c;
-for (c = 'a'; c <= 'z'; ++c)
-	putchar(c);
-
-for (c = 'A'; c <= 'Z'; ++c)
-
-	putchar(c);
-
+	int n = 97;
+	int m = 65;
+while (n<= 122)
+	{
+	putchar(n);
+	}
+while (m <=90)
+	{
+	putchar(m);
+	}
 	putchar('\n');
 return (0);
 }
