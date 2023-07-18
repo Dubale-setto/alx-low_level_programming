@@ -1,8 +1,10 @@
 #include"main.h"
 /**
- *print_sign - determines if the input number is negative, posetiv or 0.
- *@n the input number as an intiger
-*Return if char is loer case, otherwise 0.
+ * print_sign - Determines if the input number isi
+*greatet,equal or less than 0.
+ * @n: the input number as an intiger
+*Return: 1 is greater than 0, 0 is zero.
+*-1 is less than zero
  */
 int print_sign(int n)
 {
