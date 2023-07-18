@@ -1,9 +1,9 @@
 #include"main.h"
 /**
- *print_sign  - checks if the letter is lower case
-  *@c : is char to be checked
-  *Return: 1 if char is loer case, otherwise 0.
-  */
+ *print_sign - determines if the input number is negative, posetiv or 0.
+ *@n the input number as an intiger
+*Return if char is loer case, otherwise 0.
+ */
 int print_sign(int n)
 {
 	if (n > 0)
