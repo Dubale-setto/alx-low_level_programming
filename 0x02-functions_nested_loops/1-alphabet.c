@@ -1,8 +1,6 @@
 #include "main.h"
 /**
- * main - Entry point
- *
- * Description: This function prints _putchar to the standard output.
+ * print_alphabe - prints alphabet
  *
  * Return: Always 0 (Success)
  */
