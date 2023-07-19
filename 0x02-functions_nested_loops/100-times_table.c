@@ -1,43 +1,41 @@
-#include"main.h"
-/**
- * print_times_table- prints all number from 0 to 98
-*@n : value to be input
-*
-*
-*Return: returns 0.
-*/
+#include "main.h"
 
+/**
+ * print_times_table - prints the n times table, starting with 0.
+ * @n: integer value
+ *
+ * Return: void
+ */
 void print_times_table(int n)
 {
-	int num, mult, prod;
+	int i, j;
 
-	if (n >= 0 && n <= 15)
+	if (n > 15 || n < 0)
+	return;
+
+	for (i = 0; i <= n; i++)
+{
+	for (j = 0; j <= n; j++)
 	{
-		for (num = 0; num <= n; num++)
-		{
-		_putchar('0');
-		for (mult = 1; mult <= n; mult++)
-		{
-			_putchar(',');
+		if ((i * j) > 99)
+			_putchar(((i * j) / 100) + '0');
+	else
+	_putchar(' ');
+
+	if ((i * j) > 9)
+		_putchar((((i * j) / 10)) % 10 + '0');
+	else
 		_putchar(' ');
-		prod = mult * num;
-		if (prod <= 99)
-			_putchar(' ');
-		if (prod <= 9)
-		_putchar(' ');
-		if (prod >= 100)
-		{
-			_putchar((prod / 100) + '0');
-			_putchar(((prod / 10)) % 10 + '0');
-		}
-		else if (prod <= 99 && prod >= 10)
-		{
-		_putchar((prod / 10) + '0');
-		}
-		_putchar((prod / 10) + '0');
+
+	_putchar(((i * j) % 10) + '0');
+
+	if (j != n)
+	{
+	_putchar(',');
+	_putchar(' ');
 	}
-_putchar('\n');
-}
+	}
+	_putchar('\n');
 }
 }
 
