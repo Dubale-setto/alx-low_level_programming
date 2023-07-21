@@ -1,5 +1,9 @@
 #include <stdio.h>
 #include"main.h"
+/**
+ * main - write fiz buz
+ * Return: 0 sucess
+ */
 
 int main(void)
 {
