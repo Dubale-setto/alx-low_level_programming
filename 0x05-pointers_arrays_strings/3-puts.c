@@ -2,7 +2,7 @@
 #include <stddef.h>
 /**
 *_puts - taks char
-*
+*@str: valu
 *
 */
 
