@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdio.h>
 /**
  * print_array - prints every other character of a string
  * @a: string to be printed
