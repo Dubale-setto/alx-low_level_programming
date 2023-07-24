@@ -1,11 +1,16 @@
 #include "main.h"
+#include <stddef.h>
 /**
 *_puts - taks char
 *
-*@str: srr gibe
+*
 */
 
 void _puts(char *str)
 {
-	_puts(str);
+	while (*str != '\0')
+	{
+		_putchar(*str++);
+	}
+	_putchar('\n');
 }
