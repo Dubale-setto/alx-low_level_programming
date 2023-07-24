@@ -1,15 +1,13 @@
 #include "main.h"
 /**
-*swap_int -  sawpa wew
+*reset_to_98 -  sawpa wew
 *
 *Return: value
-*@a:input
-*@b: input
+*@n:input
+*
 */
 
-void swap_int(int *a, int *b)
+void reset_to_98(int *n)
 {
-	int temp = *a;
-*a = *b;
-*b = temp;
+    *n = 98;
 }
