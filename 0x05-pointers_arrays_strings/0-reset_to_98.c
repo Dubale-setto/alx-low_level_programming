@@ -1,11 +1,13 @@
 #include "main.h"
 /**
-  *
-  *
-  *
-  */
+*swap_int -  sawpa wew
+*
+*Return: value
+*@a:input
+*@b: input
+*/
 
-void swap_int(int *a, int *b) 
+void swap_int(int *a, int *b)
 {
 	int temp = *a;
 *a = *b;
