@@ -7,8 +7,10 @@
  *
  * Return: dest
  */
-char *_strncpy(char *dest, char *src, int n)
+
+char *_strncpy(char *dest, char *src, int n)i
 {
+
 	int j;
 
 	j = 0;
@@ -25,4 +27,3 @@ char *_strncpy(char *dest, char *src, int n)
 
 	return (dest);
 }
-
