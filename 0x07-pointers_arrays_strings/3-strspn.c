@@ -27,11 +27,10 @@ unsigned int _strspn(char *s, char *accept)
 
 			n++;
 
-			 break;
-			}
-
+		break;
+		}
 		else if (accept[r + 1] == '\0')
-		 return (n);
+			return (n);
 		}
 
 		s++;
@@ -41,5 +40,3 @@ unsigned int _strspn(char *s, char *accept)
 	return (n);
 
 }
-
-
